@@ -1,0 +1,23 @@
+# Core UI
+streamlit==1.40.1
+
+# LLM client
+mistralai==1.5.2
+
+# Data handling
+pandas==2.0.3
+numpy==1.24.4
+
+# Models & validation
+pydantic==2.10.6
+
+# HTTP & retries (used indirectly but important)
+requests==2.32.4
+httpx==0.28.1
+tenacity==9.0.0
+
+# Visualization (Streamlit dependency, but kept explicit for safety)
+altair==5.4.1
+
+# Config files
+toml==0.10.2
